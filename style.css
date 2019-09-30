@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+    width: 100%;
+    background: #ffffff;
+    font-family: "Futura", "Hirago KakuGothic Pro", sans-serif;
+}
+
+
+/*ーーーーーーーーー全体ーーーーーーーーー*/
+h1 {
+    font-size: 36px;
+    padding-left: 8px;
+    color: #555;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Futura";
+}
+
+p {
+    line-height: 2;
+}
+
+.top-title {
+    font-size: 50px;
+    padding: 40px;
+    color: #3D5CDB;
+    font-weight: 600;
+    /*    border-left: 6px solid #c891fe;*/
+}
+
+
+/*ーーーーーーーHeader部ーーーーーーーーー*/
+#header {
+    width: 100%;
+    overflow: hidden;
+    padding: 14px 1px 5px 5px;
+    z-index: 2;
+}
+
+nav {
+    /*    overflow: hidden;*/
+    z-index: 3;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a {
+    font-size: 25px;
+    /*    display: block;*/
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 14px 16px 0px;
+    font-family: "futura";
+    font-weight: 500;
+
+}
+
+nav a:hover {
+    text-shadow: 1px 1px 1px #000;
+    text-decoration: none;
+    color: #3D5CDB;
+    transition: 0.1s;
+}
+
+/*ーーーーーーーーMain-visual部ーーーーーーーー*/
+
+.main-visual {
+    width: 100%;
+    height: 700px;
+    background: #fff url(hero.jpg) 0 0 no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+
+.bgs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.main-visual h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.main-visual img {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*ーーーーーーーIntroduction部ーーーーーーーーー*/
+
+#introduction {
+    width: 100% background: #fff;
+    padding: 0px 100px 0px;
+}
+
+.content {
+    padding: 16px 0;
+    margin-bottom: 200px;
+}
+
+#contents1 {
+    height: 400px;
+    margin: 10px 10px 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contents1 img {
+    width: 500px;
+    height: 300px;
+    margin: 10px 10px
+}
+
+#contents1 textbox {
+    width: 500px;
+    height: 300px;
+}
+
+#contents1 a {
+    background: #3b5998;
+}
+
+.textbox p{margin-bottom: 20px;}
+
+.textbox a{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    padding: 8px 32px;
+    color: #f9f9f9;
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.textbox a:hover{
+    box-shadow: 0 0 8px gray;
+}
+
+#contents2 {
+    height: 400px;
+    margin: 10px 10px 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contents2 img {
+    width: 500px;
+    height: 300px;
+    margin: 10px 10px
+}
+
+#contents2 textbox {
+    width: 500px;
+    height: 300px;
+}
+
+#contents2 a {
+    background: #ffbf00;
+}
+
+
+/*ーーーーーーーCourses部ーーーーーーーーー*/
+
+
+.courses {
+    width: 100%;
+    height: 1000px;
+    background-color: skyblue;
+    position: relative;
+}
+
+.particles-js{
+    width: 100%;
+    height: 1000px;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+}
+
+#coursesbox {
+    display: flex;
+    padding: 0px 100px 80px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 2;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 10px 10px;
+    padding: 30px;
+    border-radius: 12px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.box img{
+    width: 100px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#html a {
+    background-color: orange;
+}
+
+#css a {
+    background-color: skyblue;
+}
+
+#unity a {
+    background-color: black;
+}
+
+#ruby a {
+    background-color: orangered;
+}
+
+#js a {
+    background-color: #ffbf00;
+}
+
+#swift a {
+    background-color: red;
+}
+
+#go a {
+    background-color: skyblue;
+}
+
+.box a {
+    height: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 25px;
+}
+.box a:hover{
+    box-shadow: 0 0 8px gray;
+}
+
+
+
+/*ーーーーーーーImages部ーーーーーーーーー*/
+
+.slick{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick img{
+    width: 100%;
+}
+
+/*ーーーーーーーAccess部ーーーーーーーーー*/
+.map {
+    text-align: center;
+}
+
+/*ーーーーーーーfooter部ーーーーーーーーー*/
+h4 {
+    font-size: 12px;
+    height: 50px;
+    text-align: center;
+    color: #3D5CDB;
+    margin-top: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all:last-child {
+    border-bottom: 0;
+}
