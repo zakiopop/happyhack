@@ -9,7 +9,7 @@
 
     <!--    ファビコン-->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">　
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
 
     <!--     Slickr-->
     <script type="text/javascript" src="slick.min.js"></script>
@@ -95,7 +95,9 @@
         <div class="courses">
            
             <h1 class="top-title">Courses</h1>
-
+            
+            <div id="particles-js"></div>
+            
             <div id="coursesbox">
 
                 <div id="html" class="box">
@@ -143,7 +145,7 @@
                 
             </div>
             
-             <div id="particles-js"></div>
+             
         </div>
 
 
@@ -185,7 +187,7 @@
 
     <script>
         jQuery(function($) {
-            $('.bgs').bgSwitcher({
+            $('main-visual').bgSwitcher({
                 images: ['hero.jpg', 'introduction_001.jpg', 'introduction_002.jpg'],
                 interval: 3000,
                 loop: true,
